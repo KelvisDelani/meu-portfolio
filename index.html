@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <!-- Link para o arquivo CSS que define o estilo da página -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Link para a imagem de fundo -->
+    <link rel="stylesheet" href="fundohtml.png">
+</head>
+<body>
+    <!-- Botões fixos no topo da página que levam a diferentes seções -->
+    <div class="fixed-buttons">
+        <button onclick="location.href='#sobre-mim'">Sobre mim</button>
+        <button onclick="location.href='#formacao'">Formação</button>
+        <button onclick="location.href='#portfolio'">Portfólio</button>
+        <button onclick="location.href='#contato'">Contato</button>
+    </div>
+
+    <!-- Seção "Sobre mim" com uma descrição pessoal -->
+    <div id="sobre-mim" class="section">
+        <h2>Sobre mim</h2>
+        <p>Estou sempre buscando aprender e explorar novos conhecimentos.<br> 
+        Sou fã de futebol e jogos online.<br>
+        Gosto de aproveitar o tempo livre para relaxar, ir a praia e acampar.<br> Estou aprendendo a cultivar a natureza, o que tem sido uma experiência incrível.<br>
+        Além disso, sou uma pessoa muito curiosa.</p>
+    </div>
+
+    <!-- Seção "Formação" com informações sobre estudos -->
+    <div id="formacao" class="section">
+        <h2>Formação e Idiomas</h2>
+        <br>
+        <p>- Cursando <strong>Tecnologia em Análise e Desenvolvimento de Sistemas</strong>, onde adquiro conhecimentos em programação, desenvolvimento de software e arquitetura de sistemas.</p>
+        <br>
+        <p>- Cursando <strong>Ciência de Dados</strong>, expandindo minhas habilidades em análise de grandes volumes de dados, estatísticas e aprendizado de máquina.</p>
+        <br>
+        <p>- Estudante de <strong>Inglês</strong>, aprimorando a fluência e compreensão do idioma para melhor comunicação em um ambiente global.</p>
+    </div>
+
+    <!-- Seção "Portfólio" com uma mensagem informando que está em desenvolvimento -->
+    <div id="portfolio" class="section">
+        <h2>Portfólio</h2>
+        <p>Estamos em desenvolvimento..</p>
+    </div>
+
+    <!-- Seção "Contato" com um formulário para enviar mensagens -->
+    <div id="contato" class="section">
+        <h2>Contato</h2>
+        <form id="formulario-contato">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </div>
+
+    <!-- Rodapé da página com os direitos autorais -->
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Arquivo JavaScript para funcionalidades interativas -->
+    <script src="ajuste.js"></script> 
+</body>
+</html>
